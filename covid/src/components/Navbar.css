@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  padding: 0px 30px;
+}
+.heading {
+  display: flex;
+}
+.container .heading h1{
+    margin-left: 10px;
+    color: #FF0019;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+}
+.listitems{
+    margin: 0px 20px;
+}
+.anchors {
+  text-decoration: none;
+  color: #52586A;
+}
+.highlight{
+    border-bottom: 2px solid #FF0019 ;
+}
