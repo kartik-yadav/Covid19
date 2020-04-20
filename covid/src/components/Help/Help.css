@@ -1,0 +1,16 @@
+.containers {
+  padding: 10px;
+}
+.headings {
+  text-align: center;
+}
+.lists {
+  list-style-type: none;
+}
+.anchor {
+  text-decoration: none;
+  color: #52586a;
+}
+.listelements{
+    margin-bottom: 10px;
+}

@@ -1,11 +1,12 @@
 import React from "react";
+import "./Faq.css";
+
 
 const Faq = () => {
   return (
-    <div>
-      <div>
-        <h2>Frequently Asked Questions</h2>
-        <h4>What is corona virus</h4>
+      <div className="containers">
+        <h2 className="headings">Frequently Asked Questions</h2>
+        <h4>What is corona virus?</h4>
         <p>
           Corona viruses are a large family of viruses which may cause illness
           in animals or humans. In humans, several coronaviruses are known to
@@ -59,8 +60,7 @@ const Faq = () => {
           stay more than 1 meter (3 feet) away from a person who is sick.
         </p>
       </div>
-    </div>
   );
-};
+}
 
 export default Faq;
