@@ -1,0 +1,10 @@
+.homecontainer {
+  display: flex;
+  padding: 10px;
+}
+.cards {
+  width: 80%;
+}
+.rcontainer {
+  width: 25%;
+}

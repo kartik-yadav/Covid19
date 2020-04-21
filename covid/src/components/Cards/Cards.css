@@ -1,0 +1,7 @@
+.cardscontainer{
+    display: flex;
+    padding:10px;
+}
+.cardheight{
+    height: 20px;
+}

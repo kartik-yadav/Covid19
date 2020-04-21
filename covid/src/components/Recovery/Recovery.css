@@ -1,0 +1,52 @@
+.recoverycontainer{
+    height: 320px;
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 20px #1425401A;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.recoveryheading{
+    color:black;
+    margin: 18px;
+    text-align: center;
+}
+
+.ocircle{
+    position: relative;
+    width:189px;
+    height:189px;
+    margin: auto;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    
+    
+}
+.icircle{
+    position: relative;
+    width:50%;
+    height:50%;
+    top: 25%;
+    left: 25%;
+    background-color: white;
+    box-shadow: 0px 0px 22px #2FD0AA26;
+    border-radius: 50%;
+}
+
+.h3r{
+    position: absolute;
+    top:15px;
+    left:17px;
+    color:#06BA90;
+}   
+.recoverycontent{
+    font-size: small;
+    margin-top: 20px;
+    line-height: 1.5em;
+    padding-top:10px;
+    font-weight: bold;
+    color:rgb(85, 83, 83);
+}
