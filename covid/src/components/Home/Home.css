@@ -5,6 +5,8 @@
 .cards {
   width: 80%;
 }
-.rcontainer {
+.rtcontainer {
+  display: flex;
+  flex-direction: column;
   width: 25%;
 }

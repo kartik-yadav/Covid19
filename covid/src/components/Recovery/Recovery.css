@@ -28,7 +28,7 @@
 .icircle{
     position: relative;
     width:50%;
-    height:50%;
+    height:50%; 
     top: 25%;
     left: 25%;
     background-color: white;
@@ -44,6 +44,7 @@
 }   
 .recoverycontent{
     font-size: small;
+    text-align: center;
     margin-top: 20px;
     line-height: 1.5em;
     padding-top:10px;
