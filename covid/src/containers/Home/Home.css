@@ -1,12 +1,16 @@
 .homecontainer {
   display: flex;
   padding: 10px;
+  flex-wrap: wrap;
 }
 .cards {
-  width: 80%;
+  width: 75%;
 }
 .rtcontainer {
   display: flex;
   flex-direction: column;
   width: 25%;
+}
+.newshome{
+  margin-top: 150px;
 }

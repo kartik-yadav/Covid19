@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../../images/virus.svg";
-import { Link, NavLink } from 'react-router-dom';
+import logo from "../../assests/images/virus.svg";
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 
 const Navbar = () => {
