@@ -1,5 +1,6 @@
 import React from "react";
 import "./CardTemplate.css";
+import CountUp from "react-countup";
 
 const CardTemplate = ({
   title = "cases",
@@ -16,7 +17,10 @@ const CardTemplate = ({
           </span>
         </span>
         <span>
-          <h3 className="h3ct"> {value} </h3>
+          <h3 className="h3ct">
+            {" "}
+            <CountUp start={0} end={value} duration={5} separator="," />
+          </h3>
         </span>
       </div>
       <div>
@@ -24,6 +28,6 @@ const CardTemplate = ({
       </div>
     </div>
   );
-}
+};
 
 export default CardTemplate;

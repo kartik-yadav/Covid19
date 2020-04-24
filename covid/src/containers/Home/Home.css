@@ -1,16 +1,34 @@
 .homecontainer {
+  margin: 0px;
+  padding: 0px;
   display: flex;
   padding: 10px;
+}
+.leftcontainer{
+  width: 80%;
+  display: flex;
   flex-wrap: wrap;
 }
-.cards {
-  width: 75%;
-}
+.cards{
+  height: 150px;
+} 
 .rtcontainer {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 20%;
+}
+.lastcontainer{
+  display: flex;
+  height: 500px;
+  align-items: center;
+  /* justify-items: flex-start; */
+}
+.charthome{
+  margin-left: 10px;
+}
+.cphome{
+  margin-left: 150px;
 }
 .newshome{
-  margin-top: 150px;
+  margin-left: 40px;
 }
